@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.storystarcoaching">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StoryStarCoaching">
+        <activity
+            android:name=".ConfirmationAppointmentUpdated"
+            android:label="Appointment Updated"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.storystarcoaching.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ConfirmationTestimonial"
+            android:label="@string/activity_label_TestimonialConfirmed"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.storystarcoaching.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ConfirmationReferral"
+            android:label="@string/activity_label_referralConfirmation"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.storystarcoaching.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ConfirmationAppointment"
+            android:label="@string/activity_label_aptConfirmed"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.storystarcoaching.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UpdateAppointment"
+            android:label="@string/activity_label_updateApt"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.storystarcoaching.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SubmitReferral"
+            android:label="@string/activity_name_submit_referral"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.storystarcoaching.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SubmitTestimonial"
+            android:label="@string/activity_name_schedule_testimonial"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.storystarcoaching.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ScheduleAppointment"
+            android:label="@string/activity_name_scheduleApp"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.storystarcoaching.MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
